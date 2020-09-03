@@ -26,8 +26,8 @@ usernames = ["vanguardngrnews", "mobilepunch", "SaharaReporters", "GuardianNiger
 #CREATING A LIST FOR TWEETS TEXT
 tweets = []
 for name in usernames:
-  tweet = api.user_timeline(screen_name = name)
-  tweets.append(tweet[0].text.lower())
+  tweet = api.user_timeline(screen_name = name, tweet_mode = "extended")
+  tweets.append(tweet[0].full_text.lower())
 #print(tweets)
 
 
