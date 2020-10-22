@@ -32,7 +32,7 @@ for name in usernames:
 
 
 #REPLACEMENT DICTIONARY
-KeywordAndReplacement = {"breaking": "we don come again", "fg": "apc-pdp partnership(FG)", "tinubu": "jagaban", "buhari": "hush-daddy", "gbajabiamila": "jagaban's boy", "DSS": "aso-rock errand boys", "osinbajo": "assistant hush-daddy", "lagos": "lasgidi", "lawmakers": "lawbreakers"}
+KeywordAndReplacement = {"lagos": "lasgidi", "warri": "wafi"...............................}
 
 
 #REPLACING KEYWORDS AND REMOVING URLS
